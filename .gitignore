@@ -1,2 +1,5 @@
 # Ignore me
 .DS_Store
+v2/bootstrap/grunt
+v2/bootstrap/grunt/*
+v2/bootstrap/node_modules
