@@ -13,7 +13,8 @@
 @gray-light:             lighten(#000, 46.7%); // #777
 @gray-lighter:           lighten(#000, 93.5%); // #eee
 
-@brand-primary:         #428bca;
+@brand-primary:         #B20077;
+@brand-secondary:       #69C9CC;
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
@@ -45,7 +46,7 @@
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          14px;
+@font-size-base:          16px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
@@ -128,7 +129,7 @@
 //** Background color used for `.table-striped`.
 @table-bg-accent:               #f9f9f9;
 //** Background color used for `.table-hover`.
-@table-bg-hover:                #f5f5f5;
+@table-bg-hover:                #FFFADF;
 @table-bg-active:               @table-bg-hover;
 
 //** Border color for table and cell borders.
@@ -223,7 +224,7 @@
 //** Hover color for dropdown links.
 @dropdown-link-hover-color:      darken(@gray-dark, 5%);
 //** Hover background for dropdown links.
-@dropdown-link-hover-bg:         #f5f5f5;
+@dropdown-link-hover-bg:         #FFFADF;
 
 //** Active dropdown menu item text color.
 @dropdown-link-active-color:     @component-active-color;
@@ -369,11 +370,11 @@
 // Inverted navbar
 // Reset inverted navbar basics
 @navbar-inverse-color:                      @gray-light;
-@navbar-inverse-bg:                         #222;
+@navbar-inverse-bg:                         #B20077;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 @gray-light;
+@navbar-inverse-link-color:                 #fff;
 @navbar-inverse-link-hover-color:           #fff;
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
@@ -625,7 +626,7 @@
 //##
 
 //** Background color of the whole progress component
-@progress-bg:                 #f5f5f5;
+@progress-bg:                 #FFFADF;
 //** Progress bar text color
 @progress-bar-color:          #fff;
 
@@ -653,7 +654,7 @@
 @list-group-border-radius:      @border-radius-base;
 
 //** Background color of single list items on hover
-@list-group-hover-bg:           #f5f5f5;
+@list-group-hover-bg:           #FFFADF;
 //** Text color of active list items
 @list-group-active-color:       @component-active-color;
 //** Background color of active list items
@@ -687,11 +688,11 @@
 
 //** Border color for elements within panels
 @panel-inner-border:          #ddd;
-@panel-footer-bg:             #f5f5f5;
+@panel-footer-bg:             #FFFADF;
 
 @panel-default-text:          @gray-dark;
 @panel-default-border:        #ddd;
-@panel-default-heading-bg:    #f5f5f5;
+@panel-default-heading-bg:    #FFFADF;
 
 @panel-primary-text:          #fff;
 @panel-primary-border:        @brand-primary;
@@ -737,7 +738,7 @@
 //
 //##
 
-@well-bg:                     #f5f5f5;
+@well-bg:                     #FFFADF;
 @well-border:                 darken(@well-bg, 7%);
 
 
@@ -767,7 +768,7 @@
 @breadcrumb-padding-vertical:   8px;
 @breadcrumb-padding-horizontal: 15px;
 //** Breadcrumb background color
-@breadcrumb-bg:                 #f5f5f5;
+@breadcrumb-bg:                 #FFFADF;
 //** Breadcrumb text color
 @breadcrumb-color:              #ccc;
 //** Text color of current page in the breadcrumb
@@ -812,7 +813,7 @@
 @kbd-color:                   #fff;
 @kbd-bg:                      #333;
 
-@pre-bg:                      #f5f5f5;
+@pre-bg:                      #FFFADF;
 @pre-color:                   @gray-dark;
 @pre-border-color:            #ccc;
 @pre-scrollable-max-height:   340px;

@@ -1,0 +1,28 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin top for sticky nav */
+  margin-top: 60px;
+  
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.container {
+  width: auto;
+  max-width: 1140px;
+}
+
+section.wrapper:nth-child(odd) {
+  width: 100%;
+  background: @brand-secondary;
+  color: lighten(@brand-secondary, 35%);
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+}
